@@ -44,7 +44,10 @@ app.get('/hello',
         console.log('Validated claims: ', req.authInfo);
         
         // Service relies on the name claim.  
-        res.status(200).json({'name': req.authInfo['name']});
+        res.status(200).json({
+          'name': req.authInfo['name'],
+          'grantStatus': "GRANTED",
+        });
     }
 );
 
