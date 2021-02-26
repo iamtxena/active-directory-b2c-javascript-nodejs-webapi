@@ -1,10 +1,10 @@
 {
   "credentials": {
-    "tenantName": "unchealthcentre",
-    "clientID": "d82b3fd9-d994-4f13-8947-b74a9e4cbc6b"
+    "tenantName": "demossa",
+    "clientID": "0688c6b4-1c28-4b9a-a353-cb0356cb999e"
   },
   "policies": {
-    "policyName": "B2C_1_signupsignin1_webapi"
+    "policyName": "B2C_1_signupsignin_covid"
   },
   "resource": {
     "scope": ["demo.read"]
