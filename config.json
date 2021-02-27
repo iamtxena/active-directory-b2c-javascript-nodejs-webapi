@@ -4,7 +4,7 @@
     "clientID": "0688c6b4-1c28-4b9a-a353-cb0356cb999e"
   },
   "policies": {
-    "policyName": "B2C_1_signupsignin_covid"
+    "policyName": "B2C_1A_SignUpOrSignInWithPhoneOrEmail"
   },
   "resource": {
     "scope": ["demo.read"]
